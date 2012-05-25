@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/zomatologin">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:paddingTop="160dp"
+        android:textColor="#000000" 
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    	
+     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UserName"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+         /> 
+     
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:hint="" 
+        />
+
+    
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UserPassword"
+        android:textColor="#FF0000"
+        android:textStyle="bold" /> 
+     
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="" 
+        android:layout_gravity="right|center_vertical"
+        android:inputType="textPassword"/>
+    
+
+   <Button
+        android:id="@+id/saveButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Save" />
+     
+</LinearLayout>

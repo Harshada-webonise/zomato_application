@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to Zomato App!</string>
+    <string name="app_name">ZomatoAssignment</string>
+    <string name="Save">Login</string>
+    <string name="UserName">User Name:</string>
+	<string name="UserPassword">Password:</string>
+</resources>
